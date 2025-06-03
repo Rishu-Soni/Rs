@@ -1,0 +1,26 @@
+main
+{
+    margin: 100px;
+}
+
+.about-section,.contact-section
+{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header
+{
+    
+    background-color: aqua;
+}
+.options
+{
+    padding-left: 50%;
+}
+.rs_name
+{
+    font-size: 30px;
+    font-stretch: expanded;
+    padding-left: 45%;
+}

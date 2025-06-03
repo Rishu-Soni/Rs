@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="css/cake.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <script>
+
+    // const candle = document.getElementById("candle");
+    // const flame = document.getElementById("flame");
+    // const birthdayText = document.getElementById("birthday-text");
+
+    // candle.addEventListener("click", () => {
+    //   // Toggle candle and flame visibility
+    //   candle.style.display = "none";
+    //   flame.style.display = "block";
+
+    //   // Animate the "Happy Birthday" text
+    //   birthdayText.style.display = "inline-block";
+    //   setTimeout(() => {
+    //     birthdayText.style.opacity = "1";
+    //   }, 1000);
+    // });
+
+    function anim()
+    {
+      alert("hellp");
+    }
+
+  </script>
+
+  <!-- <script>
+    $(document).ready(function () {
+      $(".flame").click(function () {
+
+        $(".flame").animate({ "opacity": 0 }, "fast");
+        $("#text1").animate({ "top": -140, "opacity": 1 }, "fast");
+      });
+    });
+  </script> -->
+
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <nav class="navbar">
+        <span class="logo-container">
+          <a href="img/R's_8_png.png" target="_blank"><img class="logo" src="img/R's_8_png.png" alt="R's_logo">
+          </a>
+        </span>
+
+        <a class="name-container text" href="index.html">
+          <section>
+            <p>R's_8</p>
+          </section>
+        </a>
+        <span class="nav-span">
+          <ul class="nav-container">
+            <li><a id="home" href="index.html">Home</a></li>
+            <li><a id="home" href="about.html">About</a></li>
+            <li><a id="home" href="contact.html">Contact</a></li>
+          </ul>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <div class="cake-container">
+    <div class="cake">
+      <div class="plate"></div>
+      <div class="layer layer-bottom"></div>
+      <div class="layer layer-middle"></div>
+      <div class="layer layer-top"></div>
+      <div class="icing"></div>
+      <div class="drip drip1"></div>
+      <div class="drip drip2"></div>
+      <div class="drip drip3"></div>
+
+      <div class="candle-container">
+
+        <div class="candle position0">
+          <div class="flame position0" onclick="anim"></div>
+        </div>
+
+        <div class="candle position1">
+          <div class="flame position1" onclick="anim"></div>
+        </div>
+
+        <div class="candle position2">
+          <div class="flame position2" onclick="anim"></div>
+        </div>
+
+        <div id="text1">Happy Birthday</div>
+
+      </div>
+
+      <p id="text2">Click on flame to blow it</p>
+    </div>
+  </div>
+</body>
+
+</html>
